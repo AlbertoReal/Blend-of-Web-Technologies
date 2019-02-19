@@ -1,0 +1,178 @@
+
+$Card_color : #C6C0BE;
+$primary-color: #EC2929;
+$Hover-color: #0061ff;
+
+
+
+
+body, html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(-90deg, #D7DEE0, #D6D6D6);
+  font-family: 'Audiowide';
+}
+
+#jumbo {
+  background-image: url("../img/engranajes.png");
+  color: $primary-color;
+}
+
+#barranavegacion {
+  background-color: $primary-color;
+}
+
+.navbar-inverse .nav li a {
+  color: white;
+}
+
+#imga {
+  height: 30%;
+  width: 30%;
+  float: left;
+}
+
+.row {
+  background-color: $Card_color;
+}
+
+#prueba {
+  height: 25px;
+  background-color: white;
+}
+
+#publi {
+  float: right;
+  position: relative;
+  height: 255px;
+  width: 305px;
+  margin-right: 30px;
+}
+
+#publi2 {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  #contenedor {
+    float: left;
+    width: calc(100% - 400px);
+  }
+}
+
+@media (max-width: 800px) {
+  #publi {
+    width: 320px;
+    height: 100px;
+    margin-right: 0;
+    margin-left: 0;
+    display: none;
+  }
+  #publi2 {
+    display: block;
+    width: 320px;
+    height: 100%;
+    margin-bottom: 5%;
+  }
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 900px;
+}
+
+.img-thumbnail:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  color: white;
+  background-color: gray;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.videos {
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+#navegador {
+  float: right;
+}
+
+#On {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#load {
+  height: 150px;
+  width: 150px;
+  display: none;
+  margin-left: 50%;
+}
+
+#logo {
+  height: 30px;
+  width: 30px;
+}
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.icon {
+  font-size: 25px;
+  color: $primary-color;
+  &:hover {
+    color: $Hover-color;
+  }
+}
+
+
+.badge {
+  background: $primary-color;
+  color: white;
+}
+
+#cards {
+  margin: auto;
+}
+
+.card {
+  background-color: $Card_color;
+  border: none;
+}
+.paragraf-1{
+  display:none;
+}
+.paragraf-2{
+  display:none;
+}
+#read_more
+{
+  background:$primary-color;
+}
+#read_more2
+{
+  background:$primary-color;
+}
+.navbar-toggler-icon{
+color:white;
+font-size: 20px;
+}
+
+//import del footer desde el archivo _footer.scss
+
+@import '_footer';

@@ -1,0 +1,24 @@
+#footer {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: 1;
+  grid-template-areas: "footer_izq . . footer_der";
+  background-color: $Card_color;
+}
+
+#footer_izq {
+  grid-area: footer_izq;
+}
+
+#footer_der {
+  grid-area: footer_der;
+}
+
+.footer_link {
+  color: $primary-color;
+  text-decoration: underline;
+  font-size: 12px;
+  &:hover {
+    color: $Hover-color;
+  }
+}

@@ -1,0 +1,154 @@
+body, html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(-90deg, #D7DEE0, #D6D6D6);
+  font-family: 'Audiowide'; }
+
+#jumbo {
+  background-image: url("../img/engranajes.png");
+  color: #EC2929; }
+
+#barranavegacion {
+  background-color: #EC2929; }
+
+.navbar-inverse .nav li a {
+  color: white; }
+
+#imga {
+  height: 30%;
+  width: 30%;
+  float: left; }
+
+.row {
+  background-color: #C6C0BE; }
+
+#prueba {
+  height: 25px;
+  background-color: white; }
+
+#publi {
+  float: right;
+  position: relative;
+  height: 255px;
+  width: 305px;
+  margin-right: 30px; }
+
+#publi2 {
+  display: none; }
+
+@media (min-width: 800px) {
+  #contenedor {
+    float: left;
+    width: calc(100% - 400px); } }
+@media (max-width: 800px) {
+  #publi {
+    width: 320px;
+    height: 100px;
+    margin-right: 0;
+    margin-left: 0;
+    display: none; }
+
+  #publi2 {
+    display: block;
+    width: 320px;
+    height: 100%;
+    margin-bottom: 5%; } }
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 900px; }
+
+.img-thumbnail:hover {
+  opacity: 0.7; }
+
+.modal {
+  color: white;
+  background-color: gray; }
+
+.link {
+  text-decoration: none; }
+
+.videos {
+  overflow: hidden;
+  width: 100%;
+  height: 400px; }
+
+#navegador {
+  float: right; }
+
+#On {
+  display: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+#load {
+  height: 150px;
+  width: 150px;
+  display: none;
+  margin-left: 50%; }
+
+#logo {
+  height: 30px;
+  width: 30px; }
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0.8); }
+
+.icon {
+  font-size: 25px;
+  color: #EC2929; }
+  .icon:hover {
+    color: #0061ff; }
+
+.badge {
+  background: #EC2929;
+  color: white; }
+
+#cards {
+  margin: auto; }
+
+.card {
+  background-color: #C6C0BE;
+  border: none; }
+
+.paragraf-1 {
+  display: none; }
+
+.paragraf-2 {
+  display: none; }
+
+#read_more {
+  background: #EC2929; }
+
+#read_more2 {
+  background: #EC2929; }
+
+.navbar-toggler-icon {
+  color: white;
+  font-size: 20px; }
+
+#footer {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: 1;
+  grid-template-areas: "footer_izq . . footer_der";
+  background-color: #C6C0BE; }
+
+#footer_izq {
+  grid-area: footer_izq; }
+
+#footer_der {
+  grid-area: footer_der; }
+
+.footer_link {
+  color: #EC2929;
+  text-decoration: underline;
+  font-size: 12px; }
+  .footer_link:hover {
+    color: #0061ff; }
+
+/*# sourceMappingURL=scss.css.map */
